@@ -1,0 +1,50 @@
+*{
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    font-size: 1rem;
+    font: weight 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(3px 3px 3px rgb(166, 255, 0) );
+    color: yellow;
+}
+.banner{
+   background-image: url("https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVuhqH5tvREn_CdDZ0Hd_h_2U1CNDHNnv_Y7deTApe81b1sei7C7MKvK4gWMpamlSXvo8AIIS5m94R6hwfQapa0x3fwvRPingY5u-pIbsGriC1xqthXsNZ0Wjaq-LdTJd6Bk.jpg?r=152");
+   background-size: cover;
+   background-position: center center;
+   max-width: 100%;
+   background-repeat: no-repeat;
+   height: 600px;
+   font-size: 12rem;
+   color: #0f0e0e;
+}
+ .posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+ }
+ .posters::-webkit-scrollbar{
+    display: none;
+ }
+ .poster{
+    margin: 0% 1%;
+    /* border-radius:5%; */
+    border-radius: 2%;
+ }
+ /* .poster{
+    padding: 10;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 2% 0%;
+}
